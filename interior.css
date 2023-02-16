@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+}
+
+.image{
+
+
+  width: 100%;
+  background-image:  url(pexels-vecislavas-popa-1643383.jpg);
+  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    font-size: 43px;
+    color: royalblue;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    
+
+}
+.navbar ul,li,a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    }
+    .content h1{
+        font-size: 70px;
+        margin-top: 70px;
+    }
+    .content p{
+        margin: 20px auto;
+        font-weight: 25px;
+
+    }
+    button{
+        width: 200px;
+        padding: 15px;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #009688;
+        background: transparent;
+        color: royalblue;
+        cursor: pointer;
+    }
+    h1{
+        font-style: initial;
+    }
+    p{
+        color: royalblue;
+        font-size: 25px;
+    }
+    .second{
+        display: flex;
+        justify-content: space-evenly;
+        margin:1px;
+        margin-left: 50px;
+        align-items: center;
+        height: 100vh;
+        background-color: #fff
+    }
+    .image-container{
+        width: 50%;
+        height: 550px;
+        padding: 10px;
+        cursor: pointer;
+        
+       
+    }
+    .image-container img{
+        width: 90%;
+        height: 100%;
+        border: 9px solid #009688;
+        border-radius: 1px;
+        
+        
+        
+
+    }
+    .image-container img:hover{
+        transform: scale(1.1);
+    }
+   
+    .navbar ul,li:hover{
+        transform: scale(1.1);
+
+    }
+    
